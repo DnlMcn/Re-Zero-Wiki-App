@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">ReZeroWikiApp</string>
+    <string name="app_name">Re:Zero Wiki</string>
+    <string name="textViewMainMenu">Bem vindo à Wiki de</string>
+    <string name="logoMainContentDescription">Logo oficial da série</string>
+    <string name="buttonProximaPagina">PROX</string>
+    <string name="textViewMainMenuCredits">Desenvolvido por Danilo Mancini e Diogo de Azevedo</string>
 </resources>

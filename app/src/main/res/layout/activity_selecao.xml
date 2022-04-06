@@ -4,29 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Selecao">
+    android:background="@color/darkgray1"
+    tools:context=".MainActivity">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar2"
-        android:layout_width="422dp"
-        android:layout_height="62dp"
-        android:background="?attr/colorPrimary"
+        android:id="@+id/toolbar"
+        android:layout_width="436dp"
+        android:layout_height="64dp"
+        android:background="@color/violet1"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="-6dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <SearchView
         android:layout_width="62dp"
         android:layout_height="62dp"
-        tools:layout_editor_absoluteX="357dp"
-        tools:layout_editor_absoluteY="2dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="94dp"
+        android:layout_height="62dp"
+        android:backgroundTint="@color/violet1"
+        android:text="@string/buttonProximaPagina"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="94dp"
-        android:layout_height="62dp"
-        android:text="prox"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:layout_width="268dp"
+        android:layout_height="64dp"
+        android:backgroundTint="@color/lightgray1"
+        android:text="Button"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="107dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

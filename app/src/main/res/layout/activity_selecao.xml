@@ -38,9 +38,25 @@
         android:id="@+id/button2"
         android:layout_width="268dp"
         android:layout_height="64dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
         android:backgroundTint="@color/lightgray1"
-        android:text="Button"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="107dp" />
+        android:text="@string/characterNameID1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="99dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="@string/characterNameID1"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@drawable/subaruicon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,6 +7,84 @@
     android:background="@color/darkgray1"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/btnCharacterID4"
+        android:layout_width="268dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/lightgray1"
+        android:text="@string/characterNameID4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iconCharacterID3"
+        app:layout_constraintTop_toBottomOf="@+id/btnCharacterID3"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <ImageView
+        android:id="@+id/iconCharacterID4"
+        android:layout_width="99dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/characterNameID4"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconCharacterID3"
+        app:srcCompat="@drawable/characterIconID4" />
+
+    <Button
+        android:id="@+id/btnCharacterID3"
+        android:layout_width="268dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/lightgray1"
+        android:text="@string/characterNameID3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iconCharacterID3"
+        app:layout_constraintTop_toBottomOf="@+id/btnCharacterID2"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <ImageView
+        android:id="@+id/iconCharacterID3"
+        android:layout_width="99dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/characterNameID3"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconCharacterID2"
+        app:srcCompat="@drawable/characterIconID3" />
+
+    <Button
+        android:id="@+id/btnCharacterID2"
+        android:layout_width="268dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/lightgray1"
+        android:text="@string/characterNameID2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iconCharacterID2"
+        app:layout_constraintTop_toBottomOf="@+id/btnCharacterID1"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <ImageView
+        android:id="@+id/iconCharacterID2"
+        android:layout_width="99dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/characterNameID2"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconCharacterID1"
+        app:srcCompat="@drawable/characterIconID2" />
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="436dp"
@@ -25,38 +103,45 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnNextPage"
         android:layout_width="94dp"
         android:layout_height="62dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="664dp"
         android:backgroundTint="@color/violet1"
-        android:text="@string/buttonProximaPagina"
+        android:gravity="center"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/btnNextPage"
         android:textColor="@color/black"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnCharacterID1"
         android:layout_width="268dp"
         android:layout_height="64dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="45dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="@color/lightgray1"
         android:text="@string/characterNameID1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+        app:layout_constraintStart_toEndOf="@+id/iconCharacterID1"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:ignore="DuplicateSpeakableTextCheck" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/iconCharacterID1"
         android:layout_width="99dp"
         android:layout_height="112dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="12dp"
         android:contentDescription="@string/characterNameID1"
         android:scaleType="fitCenter"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:srcCompat="@drawable/subaruicon" />
+        app:srcCompat="@drawable/characterIconID1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

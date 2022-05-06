@@ -61,6 +61,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <SearchView
+        android:id="@+id/searchView"
         android:layout_width="62dp"
         android:layout_height="62dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -82,7 +83,7 @@
 
     <TextView
         android:id="@+id/textViewMainMenuCredits"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="220dp"
@@ -95,5 +96,16 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageViewLogoMain" />
+
+    <ImageView
+        android:id="@+id/imageViewLogoToolbar"
+        android:layout_width="188dp"
+        android:layout_height="72dp"
+        android:contentDescription="@string/logoSmallContentDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logosmall"
+        tools:ignore="MissingConstraints,ImageContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

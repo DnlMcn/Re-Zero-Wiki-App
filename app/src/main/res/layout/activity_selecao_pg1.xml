@@ -8,6 +8,20 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/btnPreviousPage2"
+        android:layout_width="94dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/violet1"
+        android:text="@string/btnPreviousPage"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
         android:id="@+id/btnCharacterID5"
         android:layout_width="268dp"
         android:layout_height="64dp"
@@ -32,7 +46,7 @@
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iconCharacterID4"
-        app:srcCompat="@drawable/characterIconID5"
+        app:srcCompat="@drawable/character_icon_id5"
         tools:ignore="ImageContrastCheck" />
 
     <Button
@@ -59,7 +73,7 @@
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iconCharacterID3"
-        app:srcCompat="@drawable/characterIconID4" />
+        app:srcCompat="@drawable/character_icon_id4" />
 
     <Button
         android:id="@+id/btnCharacterID3"
@@ -85,7 +99,7 @@
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iconCharacterID2"
-        app:srcCompat="@drawable/characterIconID3" />
+        app:srcCompat="@drawable/character_icon_id3" />
 
     <Button
         android:id="@+id/btnCharacterID2"
@@ -111,7 +125,7 @@
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iconCharacterID1"
-        app:srcCompat="@drawable/characterIconID2" />
+        app:srcCompat="@drawable/character_icon_id2" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -124,26 +138,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <SearchView
-        android:layout_width="62dp"
-        android:layout_height="62dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/btnNextPage"
         android:layout_width="94dp"
         android:layout_height="62dp"
-        android:layout_marginStart="308dp"
-        android:layout_marginTop="664dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="5dp"
         android:backgroundTint="@color/violet1"
         android:gravity="center"
         android:lineSpacingExtra="8sp"
         android:text="@string/btnNextPage"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="TextContrastCheck" />
 
     <ImageView
@@ -156,7 +164,7 @@
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:srcCompat="@drawable/characterIconID1" />
+        app:srcCompat="@drawable/character_icon_id1" />
 
     <Button
         android:id="@+id/btnCharacterID1"
@@ -182,17 +190,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logosmall"
         tools:ignore="MissingConstraints,ImageContrastCheck" />
-
-    <Button
-        android:id="@+id/btnPreviousPage"
-        android:layout_width="94dp"
-        android:layout_height="62dp"
-        android:backgroundTint="@color/violet1"
-        android:text="@string/btnPreviousPage"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

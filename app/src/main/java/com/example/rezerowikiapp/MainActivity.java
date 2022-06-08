@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openNextPage(){
-        Intent intent = new Intent(this, Selecao.class);
+        Intent intent = new Intent(this, Characters_pg1.class);
         startActivity(intent);
     }
 }

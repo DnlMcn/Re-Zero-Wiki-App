@@ -7,20 +7,6 @@
     android:background="@color/darkgray1"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btnPreviousPage"
-        android:layout_width="94dp"
-        android:layout_height="62dp"
-        android:layout_marginStart="9dp"
-        android:layout_marginBottom="5dp"
-        android:backgroundTint="@color/violet1"
-        android:text="@string/btnPreviousPage"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="TextContrastCheck" />
-
     <ImageView
         android:id="@+id/imageViewLogoMain"
         android:layout_width="350dp"

@@ -7,13 +7,29 @@
     android:background="@color/darkgray1"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/buttonCharacters2"
+        android:layout_width="152dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/violet1"
+        android:gravity="center"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/btnNextPage_pt"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TextContrastCheck" />
+
     <ImageView
         android:id="@+id/imageViewLogoMain"
         android:layout_width="350dp"
         android:layout_height="172dp"
         android:layout_marginTop="1dp"
         android:layout_marginBottom="332dp"
-        android:contentDescription="@string/logoMainContentDescription"
+        android:contentDescription="@string/logoMainContentDescription_pt"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +44,7 @@
         android:layout_marginTop="88dp"
         android:layout_marginEnd="54dp"
         android:layout_marginBottom="3dp"
-        android:text="@string/textViewMainMenu"
+        android:text="@string/textViewMainMenu_pt"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@color/white"
         android:textSize="36sp"
@@ -48,20 +64,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/buttonCharacters"
-        android:layout_width="94dp"
-        android:layout_height="62dp"
-        android:layout_marginEnd="9dp"
-        android:layout_marginBottom="5dp"
-        android:backgroundTint="@color/violet1"
-        android:text="@string/btnNextPage"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="TextContrastCheck" />
-
     <TextView
         android:id="@+id/textViewMainMenuCredits"
         android:layout_width="0dp"
@@ -70,7 +72,7 @@
         android:layout_marginTop="220dp"
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="60dp"
-        android:text="@string/textViewMainMenuCredits"
+        android:text="@string/textViewMainMenuCredits_pt"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -82,7 +84,7 @@
         android:id="@+id/imageViewLogoToolbar"
         android:layout_width="188dp"
         android:layout_height="72dp"
-        android:contentDescription="@string/logoSmallContentDescription"
+        android:contentDescription="@string/logoSmallContentDescription_pt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

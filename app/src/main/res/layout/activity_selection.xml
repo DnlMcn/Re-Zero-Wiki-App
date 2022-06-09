@@ -20,12 +20,12 @@
 
     <Button
         android:id="@+id/buttonCharacters"
-        android:layout_width="300dp"
-        android:layout_height="57dp"
+        android:layout_width="289dp"
+        android:layout_height="59dp"
         android:layout_marginTop="27dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="@color/violet1"
-        android:text="@string/buttonSelectionCharacters"
+        android:text="@string/buttonSelectionCharacters_pt"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,11 +36,21 @@
         android:id="@+id/imageViewLogoToolbar"
         android:layout_width="188dp"
         android:layout_height="72dp"
-        android:contentDescription="@string/logoSmallContentDescription"
+        android:contentDescription="@string/logoSmallContentDescription_pt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logosmall"
         tools:ignore="MissingConstraints,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageCharacters"
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCharacters"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@drawable/FelixArgyle_icon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

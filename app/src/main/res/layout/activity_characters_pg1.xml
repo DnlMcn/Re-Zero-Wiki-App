@@ -14,7 +14,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="55dp"
         android:backgroundTint="@color/lightgray1"
-        android:text="@string/characterNameID5"
+        android:text="@string/characterNameRem"
         app:layout_constraintStart_toEndOf="@+id/iconCharacterID5"
         app:layout_constraintTop_toBottomOf="@+id/btnCharacterID4"
         tools:ignore="DuplicateSpeakableTextCheck" />
@@ -41,7 +41,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="55dp"
         android:backgroundTint="@color/lightgray1"
-        android:text="@string/characterNameID4"
+        android:text="@string/characterNameRam"
         app:layout_constraintStart_toEndOf="@+id/iconCharacterID4"
         app:layout_constraintTop_toBottomOf="@+id/btnCharacterID3"
         tools:ignore="DuplicateSpeakableTextCheck" />
@@ -65,7 +65,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="55dp"
         android:backgroundTint="@color/lightgray1"
-        android:text="@string/characterNameID3"
+        android:text="@string/characterNamePuck"
         app:layout_constraintStart_toEndOf="@+id/iconCharacterID3"
         app:layout_constraintTop_toBottomOf="@+id/btnCharacterID2"
         tools:ignore="DuplicateSpeakableTextCheck" />
@@ -89,7 +89,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="52dp"
         android:backgroundTint="@color/lightgray1"
-        android:text="@string/characterNameID2"
+        android:text="@string/characterNameEmilia"
         app:layout_constraintStart_toEndOf="@+id/iconCharacterID2"
         app:layout_constraintTop_toBottomOf="@+id/btnCharacterID1"
         tools:ignore="DuplicateSpeakableTextCheck" />
@@ -119,14 +119,14 @@
 
     <Button
         android:id="@+id/buttonCharacters"
-        android:layout_width="94dp"
-        android:layout_height="62dp"
+        android:layout_width="152dp"
+        android:layout_height="55dp"
         android:layout_marginEnd="9dp"
         android:layout_marginBottom="5dp"
         android:backgroundTint="@color/violet1"
         android:gravity="center"
         android:lineSpacingExtra="8sp"
-        android:text="@string/btnNextPage"
+        android:text="@string/btnNextPage_pt"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -152,7 +152,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="45dp"
         android:backgroundTint="@color/lightgray1"
-        android:text="@string/characterNameID1"
+        android:text="@string/characterNameSubaru"
         app:layout_constraintStart_toEndOf="@+id/iconCharacterID1"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         tools:ignore="DuplicateSpeakableTextCheck" />
@@ -161,7 +161,7 @@
         android:id="@+id/imageViewLogoToolbar"
         android:layout_width="188dp"
         android:layout_height="72dp"
-        android:contentDescription="@string/logoSmallContentDescription"
+        android:contentDescription="@string/logoSmallContentDescription_pt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
